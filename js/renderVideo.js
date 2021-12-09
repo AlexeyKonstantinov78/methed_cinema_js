@@ -25,7 +25,6 @@ const renderVideo = async () => {
 
     otherCard.length = 12; // количество карточек 
 
-    console.log(otherCard);
     firstRender(firstCard);
     renderCard(otherCard);
 };
