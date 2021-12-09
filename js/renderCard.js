@@ -9,7 +9,7 @@ const renderCard = async (data) => {
     const cards = data.map((item) => {
 
         const card = document.createElement('li');
-        card.className = 'ther-films__item';
+        card.className = 'other-films__item';
 
         const link = document.createElement('a');
         link.className = 'other-films__link';
